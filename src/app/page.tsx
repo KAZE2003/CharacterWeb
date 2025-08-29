@@ -12,8 +12,8 @@ type Track = {
 export default function Home() {
 
 const playlist: Track[] = [
-    { title: "SONG 1", src: "/sounds/gameOST.mp3" },
-    { title: "SONG 2", src: "/sounds/gameOST1.mp3" },
+    { title: "SONG 1", src: "../../public/sounds/gameOST.mp3" },
+    { title: "SONG 2", src: "../../public/sounds/gameOST1.mp3" },
   ];
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -78,24 +78,24 @@ const playlist: Track[] = [
       stars: 5,
       description:
         "ซามูไรผู้แข็งแกร่งแห่งยุคโบราณ ผู้มีดาบคู่ใจที่ชื่อ “สายลมเหล็ก” (Iron Wind) KAZEMARU เติบโตขึ้นในหมู่บ้านเล็ก ๆ ที่ตั้งอยู่ท่ามกลางภูเขาและสายลมที่พัดแรง เขาได้รับการฝึกฝนศิลปะการต่อสู้และวิถีซามูไรอย่างเข้มงวดตั้งแต่วัยเด็ก ด้วยจิตใจที่สงบนิ่งและความมุ่งมั่นสูง KAZEMARU ได้สาบานว่าจะปกป้องผู้คนที่อ่อนแอกว่า และรักษาความยุติธรรมในโลกที่เต็มไปด้วยความวุ่นวาย แม้จะเผชิญกับศัตรูที่ทรงพลัง เขายังคงก้าวเดินด้วยความเร็วและความคล่องแคล่วดุจสายลม ทำให้คู่ต่อสู้แทบตามไม่ทัน เขาคือซามูไรแห่งสายลม ผู้ไม่เคยหวั่นไหวต่อพายุแห่งชะตากรรม",
-      image: "/CharacterWeb/public/images/kazemaru.png",
-      image1: "/images/kazeprofile.png",
+      image: "../../public/images/kazemaru.png",
+      image1: "../../public/images//kazeprofile.png",
     },
 
     {
       name: "SAKUHA",
       stars: 5,
       description: "คำอธิบายตัวละคร 3",
-      image: "/images/sakuha.png",
-      image1: "/images/sakuhaprofile.png",
+      image: "../../public/images/sakuha.png",
+      image1: "../../public/images/sakuhaprofile.png",
     },
 
     {
       name: "AZU",
       stars: 4,
       description: "หญิงสาวผู้มีทักษะการลอบสังหารระดับยอดฝีมือ Azu เติบโตขึ้นในเงามืดของโลกใต้ดิน เธอถูกฝึกฝนมาตั้งแต่เด็กให้เป็นเครื่องมือสังหารที่ไร้ความปรานี ด้วยความเฉลียวฉลาดและความว่องไวเหนือมนุษย์ Azu ใช้ความเงียบและความลับเป็นอาวุธหลักในการทำภารกิจที่ยากที่สุด ความลับของเธอถูกปกปิดด้วยใบหน้าที่สงบนิ่งและแววตาที่เย็นชา แต่ภายในใจกลับเต็มไปด้วยความเจ็บปวดและอดีตที่ถูกลืม เธอเดินทางในเส้นทางของเงามืด เพียงเพื่อค้นหาความหมายของชีวิตและอิสรภาพจากพันธนาการแห่งอดีต",
-      image: "/images/azu.png",
-      image1: "/images/azuprofile.png",
+      image: "../../public/images/azu.png",
+      image1: "../../public/images/azuprofile.png",
     },
   ];
 
